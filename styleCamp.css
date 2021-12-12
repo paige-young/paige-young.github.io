@@ -1,3 +1,7 @@
+body {
+    background-color: #FAFDF3;
+}
+
 h1 {
     color: red;
 }
@@ -6,3 +10,45 @@ h1 {
     height: 200px;
     width: 400px;
 }
+
+.logo {
+    float: left;
+}
+
+.header {
+    padding: 10px;
+    max-height: 75px;
+    text-align: left;
+    background: #1abc9c;
+    color: white;
+  }
+
+.header h1 {
+    font-size: 36px;
+    padding: 5px;
+}
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  li {
+    float: right;
+    list-style-type: none;
+
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .logo {
+      max-width: 75px;
+      padding-right: 20px;
+  }
