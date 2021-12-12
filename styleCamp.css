@@ -56,10 +56,14 @@ h1 {
 
   .projects-section {
     text-align: center;
-    padding: 5rem 2rem .25rem 2rem;
+    padding: 0px;
     background: #D1BFA7;
     color: white;
     font-size: x-large;
+}
+
+.projects-section h1 {
+  padding-top: 10px;
 }
 
 .projects-section h2 {
@@ -95,6 +99,6 @@ a {
 }
 
 .project-image {
-    height: 250px;
+    height: 200px;
     width: 300px;
 }
