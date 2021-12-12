@@ -1,9 +1,16 @@
 body {
     background-color: #FAFDF3;
+    margin-left: 10px;
 }
 
 h1 {
     color: red;
+}
+
+header h1{
+  font-size: 24px;
+  color: #262626;
+  padding-top: 10px;
 }
 
 .front {
@@ -13,39 +20,47 @@ h1 {
 
 .logo {
     float: left;
+    margin-top: 3px;
 }
 
 .header {
     padding: 10px;
-    max-height: 75px;
+    max-height: 80px;
     text-align: left;
-    background: #1abc9c;
+    background: #262626;
     color: white;
   }
 
 .header h1 {
     font-size: 36px;
     padding: 5px;
+    color: #FFFFFF;
 }
 
   .active {
-    background-color: #04AA6D;
+    background-color: #455A64;
   }
 
   li {
     float: right;
     list-style-type: none;
-
+    font-size: 24px;
   }
   
   a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    padding: 15px;
+    background-color: #333333;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .nav {
+    background-color: #262626;
   }
 
   li a:hover {
-    background-color: #111;
+    background-color: #656565;
   }
 
   .logo {
@@ -53,28 +68,31 @@ h1 {
       padding-right: 20px;
   }
 
-
+  main p {
+    color: #595959;
+    font-size: 20px;
+  }
   .projects-section {
     text-align: center;
     padding: 0px;
-    background: #D1BFA7;
+    background: #262626;
     color: white;
     font-size: x-large;
 }
 
 .projects-section h1 {
   padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 .projects-section h2 {
     font-size: large;
-    padding: 0 0 10px 0;
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 5px;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -96,6 +114,8 @@ h1 {
 a { 
     text-decoration: none;
     color: white;
+    background-color: red;
+    margin-bottom: 20px;
 }
 
 .project-image {
