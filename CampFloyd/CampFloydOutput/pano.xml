@@ -1,550 +1,554 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.13" apprev="18080" start="node20">
+<tour start="node20" apprev="18080" appversion="6.1.13">
   <panorama id="node20">
-    <input levelbiashidpi="1.000" flat="1" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="6000" cylinder="1" levelingroll="0" height="4000" overlap="1" levelbias="0.400">
-      <level width="6000" predecode="0" height="4000" preload="0"/>
-      <level width="3000" predecode="0" height="2000" preload="0"/>
-      <level width="1500" predecode="0" height="1000" preload="0"/>
-      <level width="750" predecode="0" height="500" preload="0"/>
-      <level width="375" predecode="1" height="250" preload="1"/>
+    <input levelbiashidpi="1.000" height="4000" cylinder="1" levelingroll="0" width="6000" flat="1" levelingpitch="0" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="4000" predecode="0" width="6000" preload="0"/>
+      <level height="2000" predecode="0" width="3000" preload="0"/>
+      <level height="1000" predecode="0" width="1500" preload="0"/>
+      <level height="500" predecode="0" width="750" preload="0"/>
+      <level height="250" predecode="1" width="375" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-11.3315" fov="98.3008" projection="4" tilt="-0.849622"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-11.3315" tilt="-0.849622" projection="4" fov="98.3008"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="Still Images" datetime="11/22/21 12:42 PM" copyright="" source="" nodeid="node20" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-46.47" skinid="ht_node" description="" url="{node1}" title="" id="Point01" target="" tilt="-28.05"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node20" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="11/22/21 12:42 PM" tags="Still Images"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-46.47" tilt="-28.05" url="{node1}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node1">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3444" levelingroll="0" height="3444" overlap="1" levelbias="0.400">
-      <level width="3444" predecode="0" height="3444" preload="0"/>
-      <level width="1722" predecode="0" height="1722" preload="0"/>
-      <level width="861" predecode="0" height="861" preload="0"/>
-      <level width="430" predecode="1" height="430" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3444" levelingroll="0" width="3444" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3444" predecode="0" width="3444" preload="0"/>
+      <level height="1722" predecode="0" width="1722" preload="0"/>
+      <level height="861" predecode="0" width="861" preload="0"/>
+      <level height="430" predecode="1" width="430" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-329.992" fovmode="0">
-      <start pan="27.3684" fov="70" projection="4" tilt="-3.53061"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="-329.992">
+      <start pan="27.3684" tilt="-3.53061" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="-329.992" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node1" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-323.94" skinid="ht_node" description="" url="{node3}" title="" id="Point01" target="" tilt="-6.01"/>
-      <hotspot pan="-339.92" skinid="ht_node" description="" url="{node2}" title="" id="Point02" target="" tilt="-7.26"/>
-      <hotspot pan="-253.56" skinid="ht_node" description="" url="{node4}" title="" id="Point03" target="" tilt="-3.47"/>
-      <hotspot pan="-234.99" skinid="ht_image" description="" url="images/3.jpeg" title="" id="Point04" target="" tilt="-2.47"/>
-      <hotspot pan="-265.5" skinid="ht_image" description="" url="images/1.jpeg" title="" id="Point05" target="" tilt="-0.31"/>
-      <hotspot pan="-294.64" skinid="ht_image" description="" url="images/2.jpeg" title="" id="Point06" target="" tilt="-2.13"/>
-      <hotspot pan="-348.77" skinid="ht_image" description="" url="images/4.jpeg" title="" id="Point07" target="" tilt="-0.21"/>
-      <hotspot pan="-79.1" skinid="ht_node" description="" url="{node20}" title="" id="Point08" target="" tilt="-10.66"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="-329.992" nodeid="node1" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-323.94" tilt="-6.01" url="{node3}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-339.92" tilt="-7.26" url="{node2}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-253.56" tilt="-3.47" url="{node4}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point04" pan="-234.99" tilt="-2.47" url="images/3.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point05" pan="-265.5" tilt="-0.31" url="images/1.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point06" pan="-294.64" tilt="-2.13" url="images/2.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point07" pan="-348.77" tilt="-0.21" url="images/4.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point08" pan="-79.1" tilt="-10.66" url="{node20}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
-    <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <media>
+      <sound id="Element01" pan="-149.880" tilt="-7.600" tiltsize="10.000" loop="0" mode="3" nodechangekeep="0" ambientlevel="0.000" field="90.000" startmutedmobile="0" level="1.000" pansize="10.000">
+        <source url="media/Trees2 copy.mp3"/>
+      </sound>
+    </media>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3500" levelingroll="0" height="3500" overlap="1" levelbias="0.400">
-      <level width="3500" predecode="0" height="3500" preload="0"/>
-      <level width="1750" predecode="0" height="1750" preload="0"/>
-      <level width="875" predecode="0" height="875" preload="0"/>
-      <level width="437" predecode="1" height="437" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3500" levelingroll="0" width="3500" levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3500" predecode="0" width="3500" preload="0"/>
+      <level height="1750" predecode="0" width="1750" preload="0"/>
+      <level height="875" predecode="0" width="875" preload="0"/>
+      <level height="437" predecode="1" width="437" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="40.6069" fovmode="0">
-      <start pan="13.3953" fov="70" projection="4" tilt="-2.50026"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="40.6069">
+      <start pan="13.3953" tilt="-2.50026" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="40.6069" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node2" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-137.66" skinid="ht_node" description="" url="{node1}" title="" id="Point01" target="" tilt="-11.45"/>
-      <hotspot pan="-198.58" skinid="ht_image" description="" url="images/2.jpeg" title="" id="Point02" target="" tilt="-7.59"/>
-      <hotspot pan="-175.55" skinid="ht_image" description="" url="images/1.jpeg" title="" id="Point03" target="" tilt="-4.64"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="40.6069" nodeid="node2" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-137.66" tilt="-11.45" url="{node1}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-198.58" tilt="-7.59" url="images/2.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-175.55" tilt="-4.64" url="images/1.jpeg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3484" levelingroll="0" height="3484" overlap="1" levelbias="0.400">
-      <level width="3484" predecode="0" height="3484" preload="0"/>
-      <level width="1742" predecode="0" height="1742" preload="0"/>
-      <level width="871" predecode="0" height="871" preload="0"/>
-      <level width="435" predecode="1" height="435" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3484" levelingroll="0" width="3484" levelingpitch="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3484" predecode="0" width="3484" preload="0"/>
+      <level height="1742" predecode="0" width="1742" preload="0"/>
+      <level height="871" predecode="0" width="871" preload="0"/>
+      <level height="435" predecode="1" width="435" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-12.7285" fovmode="0">
-      <start pan="29.4382" fov="70" projection="4" tilt="-9.31568"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="-12.7285">
+      <start pan="29.4382" tilt="-9.31568" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="-12.7285" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node3" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-183.88" skinid="ht_node" description="" url="{node1}" title="" id="Point01" target="" tilt="-8.41"/>
-      <hotspot pan="-247.06" skinid="ht_image" description="" url="images/2.jpeg" title="" id="Point02" target="" tilt="-6.07"/>
-      <hotspot pan="-223.22" skinid="ht_image" description="" url="images/1.jpeg" title="" id="Point03" target="" tilt="-1.47"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="-12.7285" nodeid="node3" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-183.88" tilt="-8.41" url="{node1}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-247.06" tilt="-6.07" url="images/2.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-223.22" tilt="-1.47" url="images/1.jpeg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3459" levelingroll="0" height="3459" overlap="1" levelbias="0.400">
-      <level width="3459" predecode="0" height="3459" preload="0"/>
-      <level width="1729" predecode="0" height="1729" preload="0"/>
-      <level width="864" predecode="0" height="864" preload="0"/>
-      <level width="432" predecode="1" height="432" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3459" levelingroll="0" width="3459" levelingpitch="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3459" predecode="0" width="3459" preload="0"/>
+      <level height="1729" predecode="0" width="1729" preload="0"/>
+      <level height="864" predecode="0" width="864" preload="0"/>
+      <level height="432" predecode="1" width="432" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="-7.87215" fovmode="0">
-      <start pan="5.87131" fov="70" projection="4" tilt="-5.91798"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="-7.87215">
+      <start pan="5.87131" tilt="-5.91798" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="-7.87215" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node4" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-104.26" skinid="ht_node" description="" url="{node1}" title="" id="Point01" target="" tilt="-11.41"/>
-      <hotspot pan="-335.76" skinid="ht_node" description="" url="{node5}" title="" id="Point02" target="" tilt="-6.9"/>
-      <hotspot pan="-286.81" skinid="ht_node" description="" url="{node7}" title="" id="Point03" target="" tilt="-3.91"/>
-      <hotspot pan="-202.08" skinid="ht_image" description="" url="images/5.jpeg" title="" id="Point04" target="" tilt="-6.49"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="-7.87215" nodeid="node4" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-104.26" tilt="-11.41" url="{node1}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-335.76" tilt="-6.9" url="{node5}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-286.81" tilt="-3.91" url="{node7}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point04" pan="-202.08" tilt="-6.49" url="images/5.jpeg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3450" levelingroll="0" height="3450" overlap="1" levelbias="0.400">
-      <level width="3450" predecode="0" height="3450" preload="0"/>
-      <level width="1725" predecode="0" height="1725" preload="0"/>
-      <level width="862" predecode="0" height="862" preload="0"/>
-      <level width="431" predecode="1" height="431" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3450" levelingroll="0" width="3450" levelingpitch="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3450" predecode="0" width="3450" preload="0"/>
+      <level height="1725" predecode="0" width="1725" preload="0"/>
+      <level height="862" predecode="0" width="862" preload="0"/>
+      <level height="431" predecode="1" width="431" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-31.866" fov="70" projection="4" tilt="-14.3337"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-31.866" tilt="-14.3337" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node5" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-121.47" skinid="ht_node" description="" url="{node4}" title="" id="Point01" target="" tilt="-11.15"/>
-      <hotspot pan="-234.04" skinid="ht_node" description="" url="{node6}" title="" id="Point02" target="" tilt="-1.03"/>
-      <hotspot pan="-300.27" skinid="ht_image" description="" url="images/6.jpeg" title="" id="Point03" target="" tilt="-2.77"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node5" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-121.47" tilt="-11.15" url="{node4}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-234.04" tilt="-1.03" url="{node6}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-300.27" tilt="-2.77" url="images/6.jpeg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3454" levelingroll="0" height="3454" overlap="1" levelbias="0.400">
-      <level width="3454" predecode="0" height="3454" preload="0"/>
-      <level width="1727" predecode="0" height="1727" preload="0"/>
-      <level width="863" predecode="0" height="863" preload="0"/>
-      <level width="431" predecode="1" height="431" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3454" levelingroll="0" width="3454" levelingpitch="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3454" predecode="0" width="3454" preload="0"/>
+      <level height="1727" predecode="0" width="1727" preload="0"/>
+      <level height="863" predecode="0" width="863" preload="0"/>
+      <level height="431" predecode="1" width="431" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-0.0357089" fov="70" projection="4" tilt="-5.74881"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-0.0357089" tilt="-5.74881" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node6" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-79.71" skinid="ht_node" description="" url="{node5}" title="" id="Point01" target="" tilt="-15.08"/>
-      <hotspot pan="-179.72" skinid="ht_node" description="" url="{node7}" title="" id="Point02" target="" tilt="-15.79"/>
-      <hotspot pan="-126.91" skinid="ht_image" description="" url="images/7.jpeg" title="" id="Point03" target="" tilt="-28.39"/>
-      <hotspot pan="-126.77" skinid="ht_image" description="" url="images/8.jpeg" title="" id="Point04" target="" tilt="-11"/>
-      <hotspot pan="-224.95" skinid="ht_image" description="" url="images/19.jpg" title="" id="Point05" target="" tilt="-11.38"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node6" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-79.71" tilt="-15.08" url="{node5}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-179.72" tilt="-15.79" url="{node7}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-126.91" tilt="-28.39" url="images/7.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point04" pan="-126.77" tilt="-11" url="images/8.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point05" pan="-224.95" tilt="-11.38" url="images/19.jpg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3447" levelingroll="0" height="3447" overlap="1" levelbias="0.400">
-      <level width="3447" predecode="0" height="3447" preload="0"/>
-      <level width="1723" predecode="0" height="1723" preload="0"/>
-      <level width="861" predecode="0" height="861" preload="0"/>
-      <level width="430" predecode="1" height="430" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3447" levelingroll="0" width="3447" levelingpitch="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3447" predecode="0" width="3447" preload="0"/>
+      <level height="1723" predecode="0" width="1723" preload="0"/>
+      <level height="861" predecode="0" width="861" preload="0"/>
+      <level height="430" predecode="1" width="430" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="118.479" fov="70" projection="4" tilt="-2.64566"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="118.479" tilt="-2.64566" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node7" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-320.09" skinid="ht_node" description="" url="{node6}" title="" id="Point01" target="" tilt="-6.99"/>
-      <hotspot pan="-71.31" skinid="ht_node" description="" url="{node4}" title="" id="Point02" target="" tilt="-9.28"/>
-      <hotspot pan="-145.88" skinid="ht_node" description="" url="{node8}" title="" id="Point03" target="" tilt="-8.9"/>
-      <hotspot pan="-160.83" skinid="ht_image" description="" url="images/9.jpeg" title="" id="Point04" target="" tilt="-7.45"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node7" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-320.09" tilt="-6.99" url="{node6}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-71.31" tilt="-9.28" url="{node4}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-145.88" tilt="-8.9" url="{node8}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point04" pan="-160.83" tilt="-7.45" url="images/9.jpeg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3471" levelingroll="0" height="3471" overlap="1" levelbias="0.400">
-      <level width="3471" predecode="0" height="3471" preload="0"/>
-      <level width="1735" predecode="0" height="1735" preload="0"/>
-      <level width="867" predecode="0" height="867" preload="0"/>
-      <level width="433" predecode="1" height="433" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3471" levelingroll="0" width="3471" levelingpitch="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3471" predecode="0" width="3471" preload="0"/>
+      <level height="1735" predecode="0" width="1735" preload="0"/>
+      <level height="867" predecode="0" width="867" preload="0"/>
+      <level height="433" predecode="1" width="433" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="126.508" fov="70" projection="4" tilt="-5.55999"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="126.508" tilt="-5.55999" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node8" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-262.53" skinid="ht_node" description="" url="{node7}" title="" id="Point01" target="" tilt="-53.09"/>
-      <hotspot pan="-235.67" skinid="ht_node" description="" url="{node9}" title="" id="Point02" target="" tilt="-5.5"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node8" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-262.53" tilt="-53.09" url="{node7}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-235.67" tilt="-5.5" url="{node9}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node9">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3457" levelingroll="0" height="3457" overlap="1" levelbias="0.400">
-      <level width="3457" predecode="0" height="3457" preload="0"/>
-      <level width="1728" predecode="0" height="1728" preload="0"/>
-      <level width="864" predecode="0" height="864" preload="0"/>
-      <level width="432" predecode="1" height="432" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3457" levelingroll="0" width="3457" levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3457" predecode="0" width="3457" preload="0"/>
+      <level height="1728" predecode="0" width="1728" preload="0"/>
+      <level height="864" predecode="0" width="864" preload="0"/>
+      <level height="432" predecode="1" width="432" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-31.8307" fov="70" projection="4" tilt="-8.45187"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-31.8307" tilt="-8.45187" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node9" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-161.16" skinid="ht_node" description="" url="{node8}" title="" id="Point01" target="" tilt="-42.75"/>
-      <hotspot pan="-334.47" skinid="ht_node" description="" url="{node10}" title="" id="Point02" target="" tilt="-6.76"/>
-      <hotspot pan="-349.26" skinid="ht_image" description="" url="images/10.jpeg" title="" id="Point03" target="" tilt="-2.38"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node9" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-161.16" tilt="-42.75" url="{node8}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-334.47" tilt="-6.76" url="{node10}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-349.26" tilt="-2.38" url="images/10.jpeg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node10">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3464" levelingroll="0" height="3464" overlap="1" levelbias="0.400">
-      <level width="3464" predecode="0" height="3464" preload="0"/>
-      <level width="1732" predecode="0" height="1732" preload="0"/>
-      <level width="866" predecode="0" height="866" preload="0"/>
-      <level width="433" predecode="1" height="433" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3464" levelingroll="0" width="3464" levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3464" predecode="0" width="3464" preload="0"/>
+      <level height="1732" predecode="0" width="1732" preload="0"/>
+      <level height="866" predecode="0" width="866" preload="0"/>
+      <level height="433" predecode="1" width="433" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-45.9442" fov="70" projection="4" tilt="-6.86733"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-45.9442" tilt="-6.86733" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node10" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-131.57" skinid="ht_node" description="" url="{node9}" title="" id="Point01" target="" tilt="-14.22"/>
-      <hotspot pan="-205.33" skinid="ht_node" description="" url="{node11}" title="" id="Point02" target="" tilt="-8.36"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node10" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-131.57" tilt="-14.22" url="{node9}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-205.33" tilt="-8.36" url="{node11}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node11">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3449" levelingroll="0" height="3449" overlap="1" levelbias="0.400">
-      <level width="3449" predecode="0" height="3449" preload="0"/>
-      <level width="1724" predecode="0" height="1724" preload="0"/>
-      <level width="862" predecode="0" height="862" preload="0"/>
-      <level width="431" predecode="1" height="431" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3449" levelingroll="0" width="3449" levelingpitch="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3449" predecode="0" width="3449" preload="0"/>
+      <level height="1724" predecode="0" width="1724" preload="0"/>
+      <level height="862" predecode="0" width="862" preload="0"/>
+      <level height="431" predecode="1" width="431" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="30.6498" fov="70" projection="4" tilt="-8.01224"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="30.6498" tilt="-8.01224" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node11" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-180.49" skinid="ht_node" description="" url="{node10}" title="" id="Point01" target="" tilt="-21.58"/>
-      <hotspot pan="-98.34" skinid="ht_node" description="" url="{node12}" title="" id="Point02" target="" tilt="-14.38"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node11" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-180.49" tilt="-21.58" url="{node10}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-98.34" tilt="-14.38" url="{node12}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node12">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3492" levelingroll="0" height="3492" overlap="1" levelbias="0.400">
-      <level width="3492" predecode="0" height="3492" preload="0"/>
-      <level width="1746" predecode="0" height="1746" preload="0"/>
-      <level width="873" predecode="0" height="873" preload="0"/>
-      <level width="436" predecode="1" height="436" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3492" levelingroll="0" width="3492" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3492" predecode="0" width="3492" preload="0"/>
+      <level height="1746" predecode="0" width="1746" preload="0"/>
+      <level height="873" predecode="0" width="873" preload="0"/>
+      <level height="436" predecode="1" width="436" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="19.2841" fov="70" projection="4" tilt="-11.1368"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="19.2841" tilt="-11.1368" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node12" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-127.67" skinid="ht_node" description="" url="{node11}" title="" id="Point01" target="" tilt="-14.26"/>
-      <hotspot pan="-38.43" skinid="ht_node" description="" url="{node13}" title="" id="Point02" target="" tilt="-18.81"/>
-      <hotspot pan="-63.55" skinid="ht_image" description="" url="images/11.jpeg" title="" id="Point03" target="" tilt="-20.31"/>
-      <hotspot pan="-21.71" skinid="ht_image" description="" url="images/12.jpeg" title="" id="Point04" target="" tilt="-7.65"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node12" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-127.67" tilt="-14.26" url="{node11}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-38.43" tilt="-18.81" url="{node13}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-63.55" tilt="-20.31" url="images/11.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point04" pan="-21.71" tilt="-7.65" url="images/12.jpeg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node13">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3477" levelingroll="0" height="3477" overlap="1" levelbias="0.400">
-      <level width="3477" predecode="0" height="3477" preload="0"/>
-      <level width="1738" predecode="0" height="1738" preload="0"/>
-      <level width="869" predecode="0" height="869" preload="0"/>
-      <level width="434" predecode="1" height="434" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3477" levelingroll="0" width="3477" levelingpitch="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3477" predecode="0" width="3477" preload="0"/>
+      <level height="1738" predecode="0" width="1738" preload="0"/>
+      <level height="869" predecode="0" width="869" preload="0"/>
+      <level height="434" predecode="1" width="434" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="45.2154" fov="70" projection="4" tilt="-13.1185"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="45.2154" tilt="-13.1185" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node13" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-231.34" skinid="ht_node" description="" url="{node12}" title="" id="Point01" target="" tilt="-5.94"/>
-      <hotspot pan="-320.22" skinid="ht_node" description="" url="{node14}" title="" id="Point02" target="" tilt="-9.84"/>
-      <hotspot pan="-136.06" skinid="ht_node" description="" url="{node15}" title="" id="Point03" target="" tilt="-10.78"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node13" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-231.34" tilt="-5.94" url="{node12}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-320.22" tilt="-9.84" url="{node14}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-136.06" tilt="-10.78" url="{node15}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node14">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3530" levelingroll="0" height="3530" overlap="1" levelbias="0.400">
-      <level width="3530" predecode="0" height="3530" preload="0"/>
-      <level width="1765" predecode="0" height="1765" preload="0"/>
-      <level width="882" predecode="0" height="882" preload="0"/>
-      <level width="441" predecode="1" height="441" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3530" levelingroll="0" width="3530" levelingpitch="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3530" predecode="0" width="3530" preload="0"/>
+      <level height="1765" predecode="0" width="1765" preload="0"/>
+      <level height="882" predecode="0" width="882" preload="0"/>
+      <level height="441" predecode="1" width="441" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-55.7919" fov="70" projection="4" tilt="-13.7475"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-55.7919" tilt="-13.7475" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node14" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-185.62" skinid="ht_node" description="" url="{node13}" title="" id="Point01" target="" tilt="-13.68"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node14" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-185.62" tilt="-13.68" url="{node13}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node15">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3486" levelingroll="0" height="3486" overlap="1" levelbias="0.400">
-      <level width="3486" predecode="0" height="3486" preload="0"/>
-      <level width="1743" predecode="0" height="1743" preload="0"/>
-      <level width="871" predecode="0" height="871" preload="0"/>
-      <level width="435" predecode="1" height="435" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3486" levelingroll="0" width="3486" levelingpitch="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3486" predecode="0" width="3486" preload="0"/>
+      <level height="1743" predecode="0" width="1743" preload="0"/>
+      <level height="871" predecode="0" width="871" preload="0"/>
+      <level height="435" predecode="1" width="435" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node15" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-253.65" skinid="ht_node" description="" url="{node13}" title="" id="Point01" target="" tilt="-10.38"/>
-      <hotspot pan="-276.49" skinid="ht_node" description="" url="{node14}" title="" id="Point02" target="" tilt="-6.75"/>
-      <hotspot pan="-191.25" skinid="ht_node" description="" url="{node16}" title="" id="Point03" target="" tilt="-50.8"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node15" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-253.65" tilt="-10.38" url="{node13}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-276.49" tilt="-6.75" url="{node14}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-191.25" tilt="-50.8" url="{node16}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node16">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3490" levelingroll="0" height="3490" overlap="1" levelbias="0.400">
-      <level width="3490" predecode="0" height="3490" preload="0"/>
-      <level width="1745" predecode="0" height="1745" preload="0"/>
-      <level width="872" predecode="0" height="872" preload="0"/>
-      <level width="436" predecode="1" height="436" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3490" levelingroll="0" width="3490" levelingpitch="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3490" predecode="0" width="3490" preload="0"/>
+      <level height="1745" predecode="0" width="1745" preload="0"/>
+      <level height="872" predecode="0" width="872" preload="0"/>
+      <level height="436" predecode="1" width="436" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-158.83" fov="70" projection="4" tilt="-8.90772"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-158.83" tilt="-8.90772" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node16" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-112.4" skinid="ht_node" description="" url="{node17}" title="" id="Point01" target="" tilt="-9.26"/>
-      <hotspot pan="-201.84" skinid="ht_node" description="" url="{node15}" title="" id="Point02" target="" tilt="20.73"/>
-      <hotspot pan="-295.29" skinid="ht_node" description="" url="{node18}" title="" id="Point03" target="" tilt="-3.05"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node16" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-112.4" tilt="-9.26" url="{node17}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-201.84" tilt="20.73" url="{node15}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-295.29" tilt="-3.05" url="{node18}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node17">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3465" levelingroll="0" height="3465" overlap="1" levelbias="0.400">
-      <level width="3465" predecode="0" height="3465" preload="0"/>
-      <level width="1732" predecode="0" height="1732" preload="0"/>
-      <level width="866" predecode="0" height="866" preload="0"/>
-      <level width="433" predecode="1" height="433" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3465" levelingroll="0" width="3465" levelingpitch="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3465" predecode="0" width="3465" preload="0"/>
+      <level height="1732" predecode="0" width="1732" preload="0"/>
+      <level height="866" predecode="0" width="866" preload="0"/>
+      <level height="433" predecode="1" width="433" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-35.0257" fov="70" projection="4" tilt="-10.1442"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-35.0257" tilt="-10.1442" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node17" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-134.81" skinid="ht_node" description="" url="{node16}" title="" id="Point01" target="" tilt="-11.48"/>
-      <hotspot pan="-119.67" skinid="ht_image" description="" url="images/13.jpeg" title="" id="Point02" target="" tilt="-6.63"/>
-      <hotspot pan="-194.23" skinid="ht_image" description="" url="images/14.jpeg" title="" id="Point03" target="" tilt="-11.58"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node17" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-134.81" tilt="-11.48" url="{node16}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-119.67" tilt="-6.63" url="images/13.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point03" pan="-194.23" tilt="-11.58" url="images/14.jpeg" skinid="ht_image" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node18">
-    <input levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3470" levelingroll="0" height="3470" overlap="1" levelbias="0.400">
-      <level width="3470" predecode="0" height="3470" preload="0"/>
-      <level width="1735" predecode="0" height="1735" preload="0"/>
-      <level width="867" predecode="0" height="867" preload="0"/>
-      <level width="433" predecode="1" height="433" preload="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbiashidpi="1.000" height="3470" levelingroll="0" width="3470" levelingpitch="0" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="3470" predecode="0" width="3470" preload="0"/>
+      <level height="1735" predecode="0" width="1735" preload="0"/>
+      <level height="867" predecode="0" width="867" preload="0"/>
+      <level height="433" predecode="1" width="433" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="-14.5623" fov="70" projection="4" tilt="-1.57418"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="-14.5623" tilt="-1.57418" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="FinishedPanos" datetime="" copyright="" source="" nodeid="node18" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="-106.31" skinid="ht_node" description="" url="{node16}" title="" id="Point01" target="" tilt="-8.77"/>
-      <hotspot pan="-14.51" skinid="ht_node" description="" url="{node19}" title="" id="Point02" target="" tilt="-11.06"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node18" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags="FinishedPanos"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="-106.31" tilt="-8.77" url="{node16}" skinid="ht_node" title="" description="" target=""/>
+      <hotspot id="Point02" pan="-14.51" tilt="-11.06" url="{node19}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node19">
-    <input levelbiashidpi="1.000" flat="1" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="6000" cylinder="1" levelingroll="0" height="4000" overlap="1" levelbias="0.400">
-      <level width="6000" predecode="0" height="4000" preload="0"/>
-      <level width="3000" predecode="0" height="2000" preload="0"/>
-      <level width="1500" predecode="0" height="1000" preload="0"/>
-      <level width="750" predecode="0" height="500" preload="0"/>
-      <level width="375" predecode="1" height="250" preload="1"/>
+    <input levelbiashidpi="1.000" height="4000" cylinder="1" levelingroll="0" width="6000" flat="1" levelingpitch="0" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" leveltilesize="510">
+      <level height="4000" predecode="0" width="6000" preload="0"/>
+      <level height="2000" predecode="0" width="3000" preload="0"/>
+      <level height="1000" predecode="0" width="1500" preload="0"/>
+      <level height="500" predecode="0" width="750" preload="0"/>
+      <level height="250" predecode="1" width="375" preload="1"/>
       <preview color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="4.37859" fov="100" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max scaletofit="1" fovfisheye="360" pan="360" fov="120" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="4.37859" tilt="0" projection="4" fov="100"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" fovstereographic="270" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="Still Images" datetime="11/22/21 12:41 PM" copyright="" source="" nodeid="node19" customnodeid=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" textcolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" borderradius="1" height="20" border="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot pan="51.12" skinid="ht_image" description="" url="images/16_2.jpeg" title="" id="Point01" target="" tilt="-29.14"/>
-      <hotspot pan="20.66" skinid="ht_image" description="" url="images/15_2.jpeg" title="" id="Point02" target="" tilt="-25.87"/>
-      <hotspot pan="39.95" skinid="ht_node" description="" url="{node18}" title="" id="Point03" target="" tilt="-32.97"/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="node19" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="11/22/21 12:41 PM" tags="Still Images"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textcolor="0x000000" borderalpha="1" height="20" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" background="1" borderradius="1" border="1" wordwrap="1" textalpha="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1"/>
+      <hotspot id="Point01" pan="51.12" tilt="-29.14" url="images/16_2.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point02" pan="20.66" tilt="-25.87" url="images/15_2.jpeg" skinid="ht_image" title="" description="" target=""/>
+      <hotspot id="Point03" pan="39.95" tilt="-32.97" url="{node18}" skinid="ht_node" title="" description="" target=""/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomfov="20" zoomafteroutfov="20" blendtime="1" softedge="0" zoomspeed="2" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" blendcolor="0x000000"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" invertcontrol="1" contextvr="1" lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" rubberband="0" contextfullscreen="1" sensitivity="8" lockedkeyboard="0" dblclickfullscreen="0" lockedwheel="0" contextprojections="0" invertwheel="0"/>
+    <transition enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0" zoomoutpause="1" zoomspeed="2" zoomfov="20" type="crossdissolve" blendcolor="0x000000" blendtime="1" softedge="0" zoomout="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboard="0" contextvr="1" rubberband="0" contextfullscreen="1" sensitivity="8" invertwheel="0" speedwheel="1" dblclickfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <masternode>
-    <userdata author="Cam Stephens" longitude="-111.65444000" heading="0" info="" description="Memorial Square Park on Main Street in Spanish Fork Utah" comment="" latitude="40.11266000" title="Spanish Fork Memorial Square" tags="" datetime="" copyright="" source="" nodeid="master" customnodeid=""/>
+    <userdata copyright="" longitude="-111.65444000" comment="" title="Spanish Fork Memorial Square" source="" latitude="40.11266000" heading="0" nodeid="master" description="Memorial Square Park on Main Street in Spanish Fork Utah" info="" customnodeid="" author="Cam Stephens" datetime="" tags=""/>
   </masternode>
 </tour>
