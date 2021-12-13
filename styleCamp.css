@@ -71,7 +71,7 @@ header h1{
     color: #595959;
     font-size: 20px;
   }
-  
+
   .projects-section {
     text-align: center;
     padding: 0px;
@@ -123,4 +123,20 @@ a {
 .project-image {
     height: 200px;
     width: 300px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
